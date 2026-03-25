@@ -107,11 +107,16 @@ const Footer = () => {
       {/* Copyright */}
       <div className="bg-gray-800 text-center py-5 text-sm tracking-wide border-t border-gray-700">
         <p className="text-gray-400">
-          &copy; {new Date().getFullYear()} Nike Shoes | Designed by{" "}
-          <span className="text-white font-semibold">
-            Davis Miler
-          </span>
-          . All rights reserved.
+          &copy; {new Date().getFullYear()} Nike Shoes | Creado por{" "}
+          <a
+            href="https://diego-rodriguez-portfolio.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white font-semibold hover:underline"
+          >
+            Diego Rodriguez
+          </a>
+          . Todos los derechos reservados.
         </p>
       </div>
     </footer>
