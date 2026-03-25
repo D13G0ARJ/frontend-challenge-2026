@@ -345,4 +345,9 @@
     -webkit-text-fill-color: transparent;
     font-weight: 700;
   }
+
+  #mouse-follower,
+  #mouse-follower * {
+    border-radius: 2px !important;
+  }
 }
